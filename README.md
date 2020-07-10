@@ -5,7 +5,7 @@
 Algo Kmean
 
 ## Authors
- **[Edouard Touch](https://github.com/Eydou)** - **[Manoa Rabekoto](https://github.com/Twouli)**
+ **[Edouard Touch](https://github.com/Eydou)**
 
 [6.1]: http://i.imgur.com/0o48UoR.png (Follow me !)
 
