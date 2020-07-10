@@ -1,0 +1,34 @@
+name:                imageCompressor
+version:             0.1.0.0
+github:              "github.com/eydou"
+license:             BSD3
+author:              "E.T A.L"
+maintainer:          "edouard.touch@epitech.eu"
+copyright:           "2020 E.T A.L"
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Image compressor by Edouard Touch and Alexis Lopes
+
+dependencies:
+- random
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src
+
+executables:
+  imageCompressor:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - imageCompressor
