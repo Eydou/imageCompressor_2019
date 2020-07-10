@@ -2,7 +2,8 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/33dabef24d544b798586dc7769a4691e)](https://app.codacy.com/manual/Eydou/imageCompressor_2019?utm_source=github.com&utm_medium=referral&utm_content=Eydou/imageCompressor_2019&utm_campaign=Badge_Grade_Dashboard)
 
-Algo Kmean
+Use a parallelized K-means algorithm to compress images.
+The point is not to handle images (code snippet are given for that), but to focus on functional paradigm.
 
 ## Authors
  **[Edouard Touch](https://github.com/Eydou)**
