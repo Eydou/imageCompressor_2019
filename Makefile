@@ -5,8 +5,6 @@
 ## Makefile for clean.
 ##
 
-SRC     =       Main.hs
-
 CC      =       stack build
 
 COPY_EXE      =       --copy-bins --local-bin-path .
